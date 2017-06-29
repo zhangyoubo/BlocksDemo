@@ -13,6 +13,23 @@
 		CCA337B71EFB930600569812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA337B51EFB930600569812 /* Main.storyboard */; };
 		CCA337B91EFB930600569812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA337B81EFB930600569812 /* Assets.xcassets */; };
 		CCA337BC1EFB930600569812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA337BA1EFB930600569812 /* LaunchScreen.storyboard */; };
+		CCA338A11EFB95CC00569812 /* NSArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3384F1EFB95CC00569812 /* NSArray+BlocksKit.m */; };
+		CCA338A21EFB95CC00569812 /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338511EFB95CC00569812 /* NSDictionary+BlocksKit.m */; };
+		CCA338A31EFB95CC00569812 /* NSIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338531EFB95CC00569812 /* NSIndexSet+BlocksKit.m */; };
+		CCA338A41EFB95CC00569812 /* NSInvocation+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338551EFB95CC00569812 /* NSInvocation+BlocksKit.m */; };
+		CCA338A51EFB95CC00569812 /* NSMapTable+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338571EFB95CC00569812 /* NSMapTable+BlocksKit.m */; };
+		CCA338A61EFB95CC00569812 /* NSMutableArray+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338591EFB95CC00569812 /* NSMutableArray+BlocksKit.m */; };
+		CCA338A71EFB95CC00569812 /* NSMutableDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3385B1EFB95CC00569812 /* NSMutableDictionary+BlocksKit.m */; };
+		CCA338A81EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3385D1EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.m */; };
+		CCA338A91EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3385F1EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.m */; };
+		CCA338AA1EFB95CC00569812 /* NSMutableSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338611EFB95CC00569812 /* NSMutableSet+BlocksKit.m */; };
+		CCA338AB1EFB95CC00569812 /* NSNumber+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338631EFB95CC00569812 /* NSNumber+BlocksKit.m */; };
+		CCA338AC1EFB95CC00569812 /* NSObject+BKAssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338651EFB95CC00569812 /* NSObject+BKAssociatedObjects.m */; };
+		CCA338AD1EFB95CC00569812 /* NSObject+BKBlockExecution.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338671EFB95CC00569812 /* NSObject+BKBlockExecution.m */; };
+		CCA338AE1EFB95CC00569812 /* NSObject+BKBlockObservation.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA338691EFB95CC00569812 /* NSObject+BKBlockObservation.m */; };
+		CCA338AF1EFB95CC00569812 /* NSOrderedSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3386B1EFB95CC00569812 /* NSOrderedSet+BlocksKit.m */; };
+		CCA338B01EFB95CC00569812 /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3386D1EFB95CC00569812 /* NSSet+BlocksKit.m */; };
+		CCA338B11EFB95CC00569812 /* NSTimer+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA3386F1EFB95CC00569812 /* NSTimer+BlocksKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +43,48 @@
 		CCA337B81EFB930600569812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCA337BB1EFB930600569812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCA337BD1EFB930600569812 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA338471EFB95CC00569812 /* BKDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKDefines.h; sourceTree = "<group>"; };
+		CCA338481EFB95CC00569812 /* BlocksKit+MessageUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlocksKit+MessageUI.h"; sourceTree = "<group>"; };
+		CCA338491EFB95CC00569812 /* BlocksKit+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlocksKit+QuickLook.h"; sourceTree = "<group>"; };
+		CCA3384A1EFB95CC00569812 /* BlocksKit+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BlocksKit+UIKit.h"; sourceTree = "<group>"; };
+		CCA3384B1EFB95CC00569812 /* BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksKit.h; sourceTree = "<group>"; };
+		CCA3384D1EFB95CC00569812 /* BKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BKMacros.h; sourceTree = "<group>"; };
+		CCA3384E1EFB95CC00569812 /* NSArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3384F1EFB95CC00569812 /* NSArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338501EFB95CC00569812 /* NSDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338511EFB95CC00569812 /* NSDictionary+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338521EFB95CC00569812 /* NSIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338531EFB95CC00569812 /* NSIndexSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338541EFB95CC00569812 /* NSInvocation+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338551EFB95CC00569812 /* NSInvocation+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338561EFB95CC00569812 /* NSMapTable+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMapTable+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338571EFB95CC00569812 /* NSMapTable+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMapTable+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338581EFB95CC00569812 /* NSMutableArray+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338591EFB95CC00569812 /* NSMutableArray+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA3385A1EFB95CC00569812 /* NSMutableDictionary+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3385B1EFB95CC00569812 /* NSMutableDictionary+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA3385C1EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableIndexSet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3385D1EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableIndexSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA3385E1EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3385F1EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338601EFB95CC00569812 /* NSMutableSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableSet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338611EFB95CC00569812 /* NSMutableSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338621EFB95CC00569812 /* NSNumber+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA338631EFB95CC00569812 /* NSNumber+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338641EFB95CC00569812 /* NSObject+BKAssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKAssociatedObjects.h"; sourceTree = "<group>"; };
+		CCA338651EFB95CC00569812 /* NSObject+BKAssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKAssociatedObjects.m"; sourceTree = "<group>"; };
+		CCA338661EFB95CC00569812 /* NSObject+BKBlockExecution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKBlockExecution.h"; sourceTree = "<group>"; };
+		CCA338671EFB95CC00569812 /* NSObject+BKBlockExecution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKBlockExecution.m"; sourceTree = "<group>"; };
+		CCA338681EFB95CC00569812 /* NSObject+BKBlockObservation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+BKBlockObservation.h"; sourceTree = "<group>"; };
+		CCA338691EFB95CC00569812 /* NSObject+BKBlockObservation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+BKBlockObservation.m"; sourceTree = "<group>"; };
+		CCA3386A1EFB95CC00569812 /* NSOrderedSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSOrderedSet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3386B1EFB95CC00569812 /* NSOrderedSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSOrderedSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA3386C1EFB95CC00569812 /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3386D1EFB95CC00569812 /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA3386E1EFB95CC00569812 /* NSTimer+BlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+BlocksKit.h"; sourceTree = "<group>"; };
+		CCA3386F1EFB95CC00569812 /* NSTimer+BlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+BlocksKit.m"; sourceTree = "<group>"; };
+		CCA338831EFB95CC00569812 /* Module-iOS.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Module-iOS.modulemap"; sourceTree = "<group>"; };
+		CCA338841EFB95CC00569812 /* Module-Mac.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = "Module-Mac.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +121,7 @@
 				CCA337B01EFB930600569812 /* AppDelegate.m */,
 				CCA337B21EFB930600569812 /* ViewController.h */,
 				CCA337B31EFB930600569812 /* ViewController.m */,
+				CCA338461EFB95CC00569812 /* BlocksKit */,
 				CCA337B51EFB930600569812 /* Main.storyboard */,
 				CCA337B81EFB930600569812 /* Assets.xcassets */,
 				CCA337BA1EFB930600569812 /* LaunchScreen.storyboard */,
@@ -77,6 +137,63 @@
 				CCA337AD1EFB930600569812 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCA338461EFB95CC00569812 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3384B1EFB95CC00569812 /* BlocksKit.h */,
+				CCA338471EFB95CC00569812 /* BKDefines.h */,
+				CCA3384A1EFB95CC00569812 /* BlocksKit+UIKit.h */,
+				CCA338481EFB95CC00569812 /* BlocksKit+MessageUI.h */,
+				CCA338491EFB95CC00569812 /* BlocksKit+QuickLook.h */,
+				CCA3384C1EFB95CC00569812 /* Core */,
+				CCA338831EFB95CC00569812 /* Module-iOS.modulemap */,
+				CCA338841EFB95CC00569812 /* Module-Mac.modulemap */,
+			);
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		CCA3384C1EFB95CC00569812 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CCA3384D1EFB95CC00569812 /* BKMacros.h */,
+				CCA3384E1EFB95CC00569812 /* NSArray+BlocksKit.h */,
+				CCA3384F1EFB95CC00569812 /* NSArray+BlocksKit.m */,
+				CCA338501EFB95CC00569812 /* NSDictionary+BlocksKit.h */,
+				CCA338511EFB95CC00569812 /* NSDictionary+BlocksKit.m */,
+				CCA338521EFB95CC00569812 /* NSIndexSet+BlocksKit.h */,
+				CCA338531EFB95CC00569812 /* NSIndexSet+BlocksKit.m */,
+				CCA338541EFB95CC00569812 /* NSInvocation+BlocksKit.h */,
+				CCA338551EFB95CC00569812 /* NSInvocation+BlocksKit.m */,
+				CCA338561EFB95CC00569812 /* NSMapTable+BlocksKit.h */,
+				CCA338571EFB95CC00569812 /* NSMapTable+BlocksKit.m */,
+				CCA338581EFB95CC00569812 /* NSMutableArray+BlocksKit.h */,
+				CCA338591EFB95CC00569812 /* NSMutableArray+BlocksKit.m */,
+				CCA3385A1EFB95CC00569812 /* NSMutableDictionary+BlocksKit.h */,
+				CCA3385B1EFB95CC00569812 /* NSMutableDictionary+BlocksKit.m */,
+				CCA3385C1EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.h */,
+				CCA3385D1EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.m */,
+				CCA3385E1EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.h */,
+				CCA3385F1EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.m */,
+				CCA338601EFB95CC00569812 /* NSMutableSet+BlocksKit.h */,
+				CCA338611EFB95CC00569812 /* NSMutableSet+BlocksKit.m */,
+				CCA338621EFB95CC00569812 /* NSNumber+BlocksKit.h */,
+				CCA338631EFB95CC00569812 /* NSNumber+BlocksKit.m */,
+				CCA338641EFB95CC00569812 /* NSObject+BKAssociatedObjects.h */,
+				CCA338651EFB95CC00569812 /* NSObject+BKAssociatedObjects.m */,
+				CCA338661EFB95CC00569812 /* NSObject+BKBlockExecution.h */,
+				CCA338671EFB95CC00569812 /* NSObject+BKBlockExecution.m */,
+				CCA338681EFB95CC00569812 /* NSObject+BKBlockObservation.h */,
+				CCA338691EFB95CC00569812 /* NSObject+BKBlockObservation.m */,
+				CCA3386A1EFB95CC00569812 /* NSOrderedSet+BlocksKit.h */,
+				CCA3386B1EFB95CC00569812 /* NSOrderedSet+BlocksKit.m */,
+				CCA3386C1EFB95CC00569812 /* NSSet+BlocksKit.h */,
+				CCA3386D1EFB95CC00569812 /* NSSet+BlocksKit.m */,
+				CCA3386E1EFB95CC00569812 /* NSTimer+BlocksKit.h */,
+				CCA3386F1EFB95CC00569812 /* NSTimer+BlocksKit.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +268,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCA338AC1EFB95CC00569812 /* NSObject+BKAssociatedObjects.m in Sources */,
+				CCA338AB1EFB95CC00569812 /* NSNumber+BlocksKit.m in Sources */,
+				CCA338AE1EFB95CC00569812 /* NSObject+BKBlockObservation.m in Sources */,
 				CCA337B41EFB930600569812 /* ViewController.m in Sources */,
+				CCA338A61EFB95CC00569812 /* NSMutableArray+BlocksKit.m in Sources */,
+				CCA338A81EFB95CC00569812 /* NSMutableIndexSet+BlocksKit.m in Sources */,
+				CCA338AD1EFB95CC00569812 /* NSObject+BKBlockExecution.m in Sources */,
+				CCA338A51EFB95CC00569812 /* NSMapTable+BlocksKit.m in Sources */,
 				CCA337B11EFB930600569812 /* AppDelegate.m in Sources */,
 				CCA337AE1EFB930600569812 /* main.m in Sources */,
+				CCA338B01EFB95CC00569812 /* NSSet+BlocksKit.m in Sources */,
+				CCA338A31EFB95CC00569812 /* NSIndexSet+BlocksKit.m in Sources */,
+				CCA338A41EFB95CC00569812 /* NSInvocation+BlocksKit.m in Sources */,
+				CCA338B11EFB95CC00569812 /* NSTimer+BlocksKit.m in Sources */,
+				CCA338A21EFB95CC00569812 /* NSDictionary+BlocksKit.m in Sources */,
+				CCA338A71EFB95CC00569812 /* NSMutableDictionary+BlocksKit.m in Sources */,
+				CCA338AF1EFB95CC00569812 /* NSOrderedSet+BlocksKit.m in Sources */,
+				CCA338A11EFB95CC00569812 /* NSArray+BlocksKit.m in Sources */,
+				CCA338AA1EFB95CC00569812 /* NSMutableSet+BlocksKit.m in Sources */,
+				CCA338A91EFB95CC00569812 /* NSMutableOrderedSet+BlocksKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +408,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4GB3PHABNJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Blocks",
+				);
 				INFOPLIST_FILE = Blocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MeiQi.Blocks;
@@ -286,6 +425,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4GB3PHABNJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Blocks",
+				);
 				INFOPLIST_FILE = Blocks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MeiQi.Blocks;
@@ -312,6 +456,7 @@
 				CCA337C21EFB930600569812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
